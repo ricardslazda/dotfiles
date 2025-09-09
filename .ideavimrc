@@ -1,0 +1,43 @@
+source ~/.vimrc
+
+set highlightedyank
+set easymotion
+set surround
+set NERDTree
+set functiontextobj
+set argtextobj
+
+map <leader><leader> <Plug>(easymotion-s)
+
+map <S-h> <Action>(Back)
+nnoremap <S-j> <C-d>
+nnoremap <S-k> <C-u>
+map <S-l> <Action>(Forward)
+
+map <C-S-TAB> <Action>(PreviousTab)
+map <C-TAB> <Action>(NextTab)
+
+map <leader>q <Action>(HideAllWindows)
+
+map <leader>pw <Action>(SelectInProjectView)
+map <leader>dw <Action>(ActivateDatabaseToolWindow)
+
+map <leader>sv <Action>(SplitVertically)
+map <leader>sh <Action>(SplitHorizontally)
+
+map <leader>dv <Action>(ViewBreakpoints)
+map <leader>dt <Action>(ToggleLineBreakpoint)
+
+map <F6> <Action>(PhpListenDebugAction)
+map <F7> <Action>(StepInto)
+map <F8> <Action>(StepOver)
+map <F9> <Action>(Resume)
+
+map <leader>bv <Action>(ShowBookmarks)
+map <leader>bt <Action>(ToggleBookmarkWithMnemonic)
+
+map <leader>gb <Action>(Annotate)
+
+map <leader>yy <Action>(CopyFileName)
+map <leader>ya <Action>(CopyAbsolutePath)
+map <leader>yr <Action>(CopyContentRootPath)
