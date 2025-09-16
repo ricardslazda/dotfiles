@@ -17,10 +17,15 @@ map <S-l> <Action>(Forward)
 map <C-S-TAB> <Action>(PreviousTab)
 map <C-TAB> <Action>(NextTab)
 
-map <leader>q <Action>(HideAllWindows)
+map <C-S-j> <Action>(MethodDown)
+map <C-S-k> <Action>(MethodUp)
 
-map <leader>pw <Action>(SelectInProjectView)
-map <leader>dw <Action>(ActivateDatabaseToolWindow)
+map <leader>q <Action>(HideAllWindows)
+map <leader>f <Action>(SelectInProjectView)
+
+map <leader>sd <Action>(ActivateDatabaseToolWindow)
+map <leader>ss <Action>(ActivateStructureToolWindow)
+map <leader>sc <Action>(ActivateCommitToolWindow)
 
 map <leader>sv <Action>(SplitVertically)
 map <leader>sh <Action>(SplitHorizontally)
@@ -32,6 +37,7 @@ map <F6> <Action>(PhpListenDebugAction)
 map <F7> <Action>(StepInto)
 map <F8> <Action>(StepOver)
 map <F9> <Action>(Resume)
+map <F10> <Action>(StepOut) 
 
 map <leader>bv <Action>(ShowBookmarks)
 map <leader>bt <Action>(ToggleBookmarkWithMnemonic)
