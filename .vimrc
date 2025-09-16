@@ -12,7 +12,10 @@ set hlsearch
 set incsearch
 
 set clipboard=unnamedplus
+
 set undofile
+set undodir=~/.vim/undodir
+
 set mouse=a
 set nocompatible
 set noswapfile
@@ -44,6 +47,7 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <silent> <leader>/ :nohlsearch<CR>
 nnoremap <silent> <leader>rn :set relativenumber!<CR>
+nnoremap <leader>r :%s/<C-r>///g<Left><Left>
 
 nnoremap <leader>y "+y
 vnoremap <leader>y "+y
