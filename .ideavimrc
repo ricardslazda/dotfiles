@@ -10,8 +10,6 @@ set argtextobj
 map <leader><leader> <Plug>(easymotion-s)
 
 map <S-h> <Action>(Back)
-nnoremap <S-j> <C-d>
-nnoremap <S-k> <C-u>
 map <S-l> <Action>(Forward)
 
 map <C-S-TAB> <Action>(PreviousTab)
@@ -37,7 +35,7 @@ map <F6> <Action>(PhpListenDebugAction)
 map <F7> <Action>(StepInto)
 map <F8> <Action>(StepOver)
 map <F9> <Action>(Resume)
-map <F10> <Action>(StepOut) 
+map <F10> <Action>(StepOut)
 
 map <leader>bv <Action>(ShowBookmarks)
 map <leader>bt <Action>(ToggleBookmarkWithMnemonic)
