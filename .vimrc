@@ -35,6 +35,9 @@ nnoremap <silent> <leader>w :w<CR>
 nnoremap <silent> <leader>q :q<CR>
 nnoremap <silent> <leader>Q :q!<CR>
 
+nnoremap <S-j> <C-d>
+nnoremap <S-k> <C-u>
+
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap n nzzzv
@@ -46,7 +49,6 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 nnoremap <silent> <leader>/ :nohlsearch<CR>
-nnoremap <silent> <leader>rn :set relativenumber!<CR>
 nnoremap <leader>r :%s/<C-r>///g<Left><Left>
 
 nnoremap <leader>y "+y
